@@ -7,7 +7,7 @@ def create_image ():
 
     for i in range(600):
         for j in range (600):
-            f.write("%d %d 0 " % (255 - i, 255 - j))
+            f.write("%d %d 155 " % (155 - i, 255 - j))
 
     f.close()
 
